@@ -15,4 +15,8 @@ func main() {
 	fmt.Printf("%v %v\n", smsSendingLimit, username)
 	fmt.Println(status, amount)
 	fmt.Println("Hello %v\n", username)
+
+	// print the type of the variables  - Use Printf
+	fmt.Printf("The type of the vaaribale is %T\n", amount)
+
 }
