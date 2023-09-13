@@ -14,4 +14,16 @@ func main() {
 		fmt.Println("Ist another")
 	}
 
+	// traditional way of if
+	length := 20
+	if length > 20 {
+		fmt.Println("its too big")
+	}
+
+	// the new way for go
+	// if statement;condition{}
+	if length := 30; length > 29 {
+		fmt.Println("Its greater than 29")
+	}
+
 }
