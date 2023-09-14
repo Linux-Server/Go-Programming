@@ -9,6 +9,8 @@ func main() {
 	var mulRes = mul(10, 10)
 	fmt.Println(mulRes)
 	sugar(10, 10, "sachin")
+	sam, ram := returnMultiple() // retrun multiple syntax
+	fmt.Println(sam, ram)
 }
 
 // create a func in go
@@ -32,4 +34,10 @@ func mul(x int, y int) int {
 // syntax sugar
 func sugar(x, y int, name string) {
 	fmt.Println(x, y, name)
+}
+
+//multiple return value should be wrapped with bracket
+
+func returnMultiple() (string, int) {
+	return "sachin", 100
 }
