@@ -9,8 +9,9 @@ func main() {
 	var mulRes = mul(10, 10)
 	fmt.Println(mulRes)
 	sugar(10, 10, "sachin")
-	sam, ram := returnMultiple() // retrun multiple syntax
-	fmt.Println(sam, ram)
+	sam, ram := returnMultiple()      // retrun multiple syntax
+	firstValue, _ := returnMultiple() // ignore the second value
+	fmt.Println(sam, ram, firstValue)
 }
 
 // create a func in go
