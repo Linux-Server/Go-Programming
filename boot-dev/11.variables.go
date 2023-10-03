@@ -23,4 +23,14 @@ func main() {
 
 	fmt.Printf("the address is %v and the pincode is %v", address, pincode)
 
+	fmt.Println("")
+
+	// coversion of types
+
+	rollNumber := 11
+
+	newRollNumber := float64(rollNumber)
+
+	fmt.Printf("%f", newRollNumber)
+
 }
