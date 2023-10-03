@@ -15,6 +15,6 @@ func main() {
 
 	total := costPerMessage * float64(numMessages)
 
-	fmt.Println(total)
+	fmt.Printf("Dorsi spend %.2f dollar on monday", total)
 
 }
