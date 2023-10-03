@@ -7,9 +7,9 @@ import (
 )
 
 func main() {
-	fmt.Println("hello main")
+	// fmt.Println("hello main")
 
-	output := greetings.Hello("im happy here")
+	output, res := greetings.Hello("")
 
-	fmt.Println(output)
+	fmt.Println(output, res)
 }
